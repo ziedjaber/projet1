@@ -1,0 +1,89 @@
+<!-- Déclaration du type de document et de la langue -->
+<!DOCTYPE html>
+<html lang="en" class="zied">
+<head>
+  <!-- Métadonnées pour l'encodage des caractères et l'échelle initiale -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Titre de la page avec style de couleur en ligne -->
+  <title style="color: azure ;">CR7 Website</title>
+  <!-- Inclusion de la feuille de style Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Inclusion de la feuille de style personnalisée et du style en ligne pour la vidéo -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* style pour modifier le video on arriére plan */
+    video {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      opacity: 50%;
+    }
+  </style>
+</head>
+<body style="background-color: black;">
+<!-- Vidéo d'arrière-plan avec attributs -->
+<video autoplay loop muted plays-inline class="bg">
+  <source src="C:\Users\PC\Desktop\html\Ronaldo 4k Clips For Edit 🔥 (No Copyright).mp4" type="video/mp4">
+</video>
+<!-- En-tête de la page avec barre de navigation Bootstrap -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Marque de navigation -->
+      <a class="navbar-brand" href="#" style="color: azure ;">Cristiano Ronaldo</a>
+      <!-- Bouton de bascule pour la navigation en mode mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Contenu de la barre de navigation -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <!-- Liens de navigation -->
+          <li class="nav-item"><a class="nav-link" href="home.html" style="color:gray;">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" style="color: gray ;">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work" style="color: gray ;">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume" style="color: gray ;">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" style="color: gray ;">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Contenu principal de la page -->
+<main class="container my-5">
+  <!-- Section d'accueil -->
+  <section id="home">
+    <h1 style="color: azure ;">Welcome to Cristiano Ronaldo offical website </h1>
+    <!-- Contenu de la section d'accueil -->
+  </section>
+  <!-- Section de contact -->
+  <h2 style="color: azure ;">Contact Us by sending a email using the next form</h2>
+  <!-- Formulaire de contact -->
+  <form>
+    <div class="form-group">
+      <label for="name" style="color: azure ;">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email" style="color: azure ;">Email:</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message" style="color: azure;">Message:</label>
+      <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" style="color: azure ;" >Submit</button>
+  </form>
+</main>
+
+<!-- Pied de page -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2023 Your Website. All rights reserved.</p>
+</footer>
+</body>
+</html>
